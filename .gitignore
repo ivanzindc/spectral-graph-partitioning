@@ -1,0 +1,39 @@
+# Compiled Java class files
+*.class
+
+# Build output
+out/
+build/
+target/
+
+# Apache Commons Math JAR (download separately)
+commons-math3-3.6.1.jar
+*.jar
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.iws
+*.ipr
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup / temporary files
+*~
+*.bak
+*.swp
+*.orig
+
+# Project-specific archive folders
+archive/
+"archive of bad permutations & other bad code"/
+Archive/
+"Term Project - Experiment*"/
+*.zip
