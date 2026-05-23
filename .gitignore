@@ -6,10 +6,6 @@ out/
 build/
 target/
 
-# Apache Commons Math JAR (download separately)
-commons-math3-3.6.1.jar
-*.jar
-
 # IDE files
 .idea/
 *.iml

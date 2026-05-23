@@ -125,9 +125,7 @@ The application is organized into five classes.
 ### Requirements
 
 - Java 8 or newer (`javac` and `java` on your `PATH`)
-- Apache Commons Math 3.6.1 JAR. Download from
-  [Apache Commons Math archives](https://archive.apache.org/dist/commons/math/binaries/)
-  and place `commons-math3-3.6.1.jar` at the project root (next to this README).
+- Apache Commons Math 3.6.1 (`commons-math3-3.6.1.jar`) — **included** at the project root for convenience. Distributed under the Apache License 2.0; original source: [Apache Commons Math archives](https://archive.apache.org/dist/commons/math/binaries/).
 
 ### Compile
 
@@ -230,7 +228,10 @@ Source attributions are also in the relevant method-level Javadoc.
 
 ## License
 
-This project is released under the MIT License. See [`LICENSE`](LICENSE) for
-details. Note that Apache Commons Math is distributed under the Apache
-License 2.0 and is not included in this repository — download it separately
-from the Apache archives.
+This project's source code is released under the MIT License. See [`LICENSE`](LICENSE) for
+details.
+
+The bundled `commons-math3-3.6.1.jar` is from the Apache Commons Math project and is distributed
+under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). It is included here
+unmodified for convenience; the original artifact and license are available at the
+[Apache Commons Math archives](https://archive.apache.org/dist/commons/math/binaries/).
